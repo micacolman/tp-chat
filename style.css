@@ -108,3 +108,13 @@ section {
   height: 40px;
   border-radius: 50%;
 }
+
+.chat-header h3 {
+  font-size: 18px;
+  margin-right: auto;
+}
+
+.chat-header p {
+  font-size: 12px;
+  color: #666;
+}
