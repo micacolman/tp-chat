@@ -81,3 +81,30 @@ section {
   font-size: 12px;
   color: #666;
 }
+
+.chat-abierto {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+
+.chat-header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.chat-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
