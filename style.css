@@ -70,5 +70,14 @@ section {
 .status::before {
   content: "•";
   color: red;
+}
 
+.status-online::before {
+  color: green;
+  content: "•";
+}
+
+.status-online {
+  font-size: 12px;
+  color: #666;
 }
