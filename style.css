@@ -70,11 +70,13 @@ section {
 .status::before {
   content: "•";
   color: red;
+  font-size: 15px;
 }
 
 .status-online::before {
-  color: green;
   content: "•";
+  color: green;
+  font-size: 15px;
 }
 
 .status-online {
@@ -86,13 +88,13 @@ section {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ccc;
-  height: 5%;
+  height: 3%;
 }
 
 .chat {
   display: flex;
   flex-direction: column;
-  background-color: #fafafa;
+  background-color: #fff;
 }
 
 .chat-header {
@@ -116,7 +118,7 @@ section {
 }
 
 .chat-header p {
-  font-size: 12px;
+  font-size: 14px;
   color: #666;
 }
 
@@ -126,7 +128,7 @@ section {
 }
 
 .chat-actions button {
-  padding: 6px 10px;
+  padding: 6px 6px;
   border: none;
   font-size: 18px;
   background-color: transparent;
@@ -137,9 +139,9 @@ section {
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding: 20px;
-  gap: 20px;
-  background-color: #ebe8e1;
+  padding: 10px;
+  gap: 5px;
+  background-color: #f7f7f7;
 }
 
 .message {
@@ -150,7 +152,7 @@ section {
 }
 
 .sent {
-  background-color: #e2ffc7;
+  background-color: #dbefffcb;
   align-self: self-end;
   text-align: right;
 
@@ -158,11 +160,11 @@ section {
 
 .received {
   background-color: #ededed;
-  width: 50%;
+  width: 35%;
 }
 
 .newly {
-  width: 25%;
+  width: 15%;
 }
 
 .timestamp {
